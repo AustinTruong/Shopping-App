@@ -103,3 +103,134 @@ public class Grouper
 	
 
 }
+
+/*
+ * Users can:
+ * 	Login
+ * 	Register
+ * 	Access message boards
+ * 	Rate other users
+ * 	Send/receive private message
+ * 	Search for listings/ shoppers
+ */
+import java.util.Scanner;
+
+public class User 
+{
+	private String userName;
+	private String passWord;
+	private Scanner keyboard;
+	
+	//default constructor
+	public User()
+	{
+		this.userName = "John Doe";
+		this.passWord = "GoKnigts!";
+	}
+	
+	//constructor with known user/pass
+	public User(String userName, String passWord)
+	{
+		this.userName = userName;
+		this.passWord = passWord;
+	}
+	
+	//getters
+	public String getUserName()
+	{
+		return this.userName;
+	}
+	
+	/*
+	 * reads in user name and password from keyboard, then validates
+	 */
+	public boolean login()
+	{
+		String user, pass;
+		keyboard = new Scanner(System.in);
+		//query login information
+		System.out.println("you are attempting to login");
+		System.out.println("enter user name:");
+		user = keyboard.nextLine();
+		System.out.println("enter password:");
+		pass = keyboard.nextLine();
+		//check if given inputs match stored data
+		if(user.equals(this.userName) || (user.equalsIgnoreCase(this.passWord)))
+		{
+			System.out.println("pass word is correct");
+			return true;
+
+		}
+		else
+		{
+			System.out.println("Either the username or password was input wrong, try again");
+			return false;
+		}
+	}
+	
+	public void searchListings()
+	{
+		
+	}
+	
+	public void searchShoppers()
+	{
+		
+	}
+	
+	public void register()
+	{
+		String user, pass;
+		keyboard = new Scanner(System.in);
+		//query user inputs
+		System.out.println("you are registering a new account");
+		System.out.println("Enter new user name");
+		user = keyboard.nextLine();
+		//check user against pre existing names in DB
+		//if name is available continue, else ask for new name
+		this.userName = user;
+		//query user input
+		System.out.println("Enter your password, must be more than 8 chars, and include at least 1 number");
+		pass = keyboard.nextLine();
+		//check that password matches requirements
+		while(!checkPass(pass))
+		{
+			System.out.println("Enter your password, must be more than 8 chars, and include at least 1 number");
+			pass = keyboard.nextLine();
+		}
+		
+		//user name and password have been accepted, create new user
+		User newUser = new User(user,pass);
+		//add 
+
+	}
+	
+	public boolean checkPass(String pass)
+	{
+		//check if password is sufficiently long
+		if(pass.length() < 8)
+		{
+			//password too short, return false
+			return false;
+		}
+		else
+		{
+			//check for a digit in the pasword
+			for(int i = 0; i < pass.length(); i++)
+			{
+				//character at index i is a digit, return true
+				if(Character.isDigit(pass.charAt(i)))
+				{
+					return true;
+				}
+			}
+			//no digit was found, return false
+			return false;
+		}
+	}
+	
+	public void accessPM()
+	{
+		System.out.println("Access Private Messages");
+	}
+}
