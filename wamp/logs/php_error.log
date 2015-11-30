@@ -1,0 +1,372 @@
+[21-Nov-2015 03:58:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[21-Nov-2015 03:58:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 14:10:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 14:10:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 14:23:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 14:23:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 15:26:38 Europe/Paris] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\wamp\www\testmysql.php on line 2
+[24-Nov-2015 15:26:38 Europe/Paris] PHP Stack trace:
+[24-Nov-2015 15:26:38 Europe/Paris] PHP   1. {main}() C:\wamp\www\testmysql.php:0
+[24-Nov-2015 15:26:38 Europe/Paris] PHP   2. mysql_connect() C:\wamp\www\testmysql.php:2
+[24-Nov-2015 15:26:41 Europe/Paris] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp\www\testmysql.php on line 2
+[24-Nov-2015 15:26:41 Europe/Paris] PHP Stack trace:
+[24-Nov-2015 15:26:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\testmysql.php:0
+[24-Nov-2015 15:26:41 Europe/Paris] PHP   2. mysql_connect() C:\wamp\www\testmysql.php:2
+[24-Nov-2015 15:26:41 Europe/Paris] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\wamp\www\testmysql.php on line 2
+[24-Nov-2015 15:26:41 Europe/Paris] PHP Stack trace:
+[24-Nov-2015 15:26:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\testmysql.php:0
+[24-Nov-2015 15:26:41 Europe/Paris] PHP   2. mysql_connect() C:\wamp\www\testmysql.php:2
+[24-Nov-2015 15:07:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 15:07:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 15:13:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 15:13:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 15:48:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 15:48:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 15:48:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 15:48:11 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 16:04:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 16:04:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 22:40:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 22:40:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 22:40:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[24-Nov-2015 22:40:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[25-Nov-2015 05:18:03 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in C:\wamp\www\ShopApp\hello.php on line 20
+[25-Nov-2015 05:18:21 Europe/Paris] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in C:\wamp\www\ShopApp\hello.php on line 18
+[25-Nov-2015 05:18:21 Europe/Paris] PHP Stack trace:
+[25-Nov-2015 05:18:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\hello.php:0
+[25-Nov-2015 05:18:21 Europe/Paris] PHP   2. mysql_connect() C:\wamp\www\ShopApp\hello.php:18
+[25-Nov-2015 05:19:31 Europe/Paris] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in C:\wamp\www\ShopApp\hello.php on line 18
+[25-Nov-2015 05:19:31 Europe/Paris] PHP Stack trace:
+[25-Nov-2015 05:19:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\hello.php:0
+[25-Nov-2015 05:19:31 Europe/Paris] PHP   2. mysqli_connect() C:\wamp\www\ShopApp\hello.php:18
+[25-Nov-2015 14:31:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[25-Nov-2015 14:31:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[25-Nov-2015 15:03:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[25-Nov-2015 15:03:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[25-Nov-2015 23:00:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[25-Nov-2015 23:00:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[25-Nov-2015 23:01:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[25-Nov-2015 23:01:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Nov-2015 17:13:14 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[26-Nov-2015 17:13:16 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[28-Nov-2015 23:23:28 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[28-Nov-2015 23:23:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[28-Nov-2015 23:50:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[28-Nov-2015 23:50:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[29-Nov-2015 03:00:55 Europe/Paris] PHP Warning:  mysqli_stmt::close(): Couldn't fetch mysqli_stmt in C:\wamp\www\ShopApp\includes\register.inc.php on line 43
+[29-Nov-2015 03:00:55 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 03:00:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\register.php:0
+[29-Nov-2015 03:00:55 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\register.php:2
+[29-Nov-2015 03:00:55 Europe/Paris] PHP   3. mysqli_stmt->close() C:\wamp\www\ShopApp\includes\register.inc.php:43
+[29-Nov-2015 03:00:55 Europe/Paris] PHP Warning:  mysqli_stmt::close(): Couldn't fetch mysqli_stmt in C:\wamp\www\ShopApp\includes\register.inc.php on line 63
+[29-Nov-2015 03:00:55 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 03:00:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\register.php:0
+[29-Nov-2015 03:00:55 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\register.php:2
+[29-Nov-2015 03:00:55 Europe/Paris] PHP   3. mysqli_stmt->close() C:\wamp\www\ShopApp\includes\register.inc.php:63
+[29-Nov-2015 16:23:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[29-Nov-2015 16:23:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[29-Nov-2015 16:23:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[29-Nov-2015 16:23:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[29-Nov-2015 17:30:25 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:30:25 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:30:25 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:30:25 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:30:25 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 17:30:35 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:30:35 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:30:35 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:30:35 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:30:35 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 17:33:29 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:33:29 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:33:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:33:29 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:33:29 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 17:33:30 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:33:30 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:33:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:33:30 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:33:30 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 17:33:39 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:33:39 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:33:39 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:33:39 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:33:39 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 17:33:43 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:33:43 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:33:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:33:43 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:33:43 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 17:33:46 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:33:46 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:33:46 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:33:46 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:33:46 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 17:35:00 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:35:00 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:35:00 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:35:00 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:35:00 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 17:35:13 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 17:35:13 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 17:35:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 17:35:13 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 17:35:13 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 18:56:19 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 18:56:19 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 18:56:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 18:56:19 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 18:56:19 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 18:56:31 Europe/Paris] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\wamp\www\ShopApp\includes\functions.php on line 54
+[29-Nov-2015 18:56:31 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 18:56:31 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_login.php:0
+[29-Nov-2015 18:56:31 Europe/Paris] PHP   2. login() C:\wamp\www\ShopApp\includes\process_login.php:11
+[29-Nov-2015 18:56:31 Europe/Paris] PHP   3. mail() C:\wamp\www\ShopApp\includes\functions.php:54
+[29-Nov-2015 19:52:30 Europe/Paris] PHP Parse error:  syntax error, unexpected '{' in C:\wamp\www\ShopApp\index.php on line 49
+[29-Nov-2015 19:53:14 Europe/Paris] PHP Parse error:  syntax error, unexpected '%' in C:\wamp\www\ShopApp\index.php on line 53
+[29-Nov-2015 20:52:20 Europe/Paris] PHP Parse error:  syntax error, unexpected '%' in C:\wamp\www\ShopApp\index.php on line 55
+[29-Nov-2015 20:52:28 Europe/Paris] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\wamp\www\ShopApp\includes\functions.php on line 201
+[29-Nov-2015 20:52:28 Europe/Paris] PHP Stack trace:
+[29-Nov-2015 20:52:28 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\index.php:0
+[29-Nov-2015 20:55:12 Europe/Paris] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ',' or ';' in C:\wamp\www\ShopApp\index.php on line 57
+[30-Nov-2015 04:55:49 Europe/Paris] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\wamp\www\ShopApp\includes\post.inc.php on line 23
+[30-Nov-2015 04:55:49 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 04:55:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 04:56:27 Europe/Paris] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\wamp\www\ShopApp\includes\post.inc.php on line 23
+[30-Nov-2015 04:56:27 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 04:56:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 04:56:30 Europe/Paris] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\wamp\www\ShopApp\includes\post.inc.php on line 23
+[30-Nov-2015 04:56:30 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 04:56:30 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 04:57:02 Europe/Paris] PHP Fatal error:  Call to undefined function sec_session_start() in C:\wamp\www\ShopApp\includes\post.inc.php on line 7
+[30-Nov-2015 04:57:02 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 04:57:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 04:57:02 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\post.php:2
+[30-Nov-2015 04:57:46 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\ShopApp\includes\post.inc.php on line 20
+[30-Nov-2015 04:57:47 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 04:57:47 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 04:57:47 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\post.php:2
+[30-Nov-2015 04:58:23 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\ShopApp\includes\post.inc.php on line 21
+[30-Nov-2015 04:58:23 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 04:58:23 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 04:58:23 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\post.php:2
+[30-Nov-2015 04:58:27 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\ShopApp\includes\post.inc.php on line 21
+[30-Nov-2015 04:58:27 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 04:58:27 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 04:58:27 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\post.php:2
+[30-Nov-2015 04:58:54 Europe/Paris] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\ShopApp\includes\post.inc.php on line 21
+[30-Nov-2015 04:58:54 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 04:58:54 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 04:58:54 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\post.php:2
+[30-Nov-2015 05:01:02 Europe/Paris] PHP Fatal error:  Call to undefined function sec_session_start() in C:\wamp\www\ShopApp\includes\post.inc.php on line 8
+[30-Nov-2015 05:01:02 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:01:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:01:02 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\post.php:2
+[30-Nov-2015 05:01:21 Europe/Paris] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\ShopApp\includes\functions.php on line 23
+[30-Nov-2015 05:01:21 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:01:21 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:01:21 Europe/Paris] PHP   2. sec_session_start() C:\wamp\www\ShopApp\post.php:5
+[30-Nov-2015 05:01:21 Europe/Paris] PHP   3. session_start() C:\wamp\www\ShopApp\includes\functions.php:23
+[30-Nov-2015 05:01:24 Europe/Paris] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\ShopApp\includes\functions.php on line 23
+[30-Nov-2015 05:01:24 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:01:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:01:24 Europe/Paris] PHP   2. sec_session_start() C:\wamp\www\ShopApp\post.php:5
+[30-Nov-2015 05:01:24 Europe/Paris] PHP   3. session_start() C:\wamp\www\ShopApp\includes\functions.php:23
+[30-Nov-2015 05:01:59 Europe/Paris] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\ShopApp\includes\functions.php on line 23
+[30-Nov-2015 05:01:59 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:01:59 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:01:59 Europe/Paris] PHP   2. sec_session_start() C:\wamp\www\ShopApp\post.php:5
+[30-Nov-2015 05:01:59 Europe/Paris] PHP   3. session_start() C:\wamp\www\ShopApp\includes\functions.php:23
+[30-Nov-2015 05:02:02 Europe/Paris] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\ShopApp\includes\functions.php on line 23
+[30-Nov-2015 05:02:02 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:02:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:02:02 Europe/Paris] PHP   2. sec_session_start() C:\wamp\www\ShopApp\post.php:5
+[30-Nov-2015 05:02:02 Europe/Paris] PHP   3. session_start() C:\wamp\www\ShopApp\includes\functions.php:23
+[30-Nov-2015 05:02:05 Europe/Paris] PHP Notice:  A session had already been started - ignoring session_start() in C:\wamp\www\ShopApp\includes\functions.php on line 23
+[30-Nov-2015 05:02:05 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:02:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:02:05 Europe/Paris] PHP   2. sec_session_start() C:\wamp\www\ShopApp\post.php:5
+[30-Nov-2015 05:02:05 Europe/Paris] PHP   3. session_start() C:\wamp\www\ShopApp\includes\functions.php:23
+[30-Nov-2015 05:03:52 Europe/Paris] PHP Notice:  Undefined variable: mysqli in C:\wamp\www\ShopApp\post.php on line 19
+[30-Nov-2015 05:03:52 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:03:52 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:02 Europe/Paris] PHP Notice:  Undefined variable: mysqli in C:\wamp\www\ShopApp\post.php on line 19
+[30-Nov-2015 05:04:02 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:02 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:11 Europe/Paris] PHP Notice:  Undefined variable: mysqli in C:\wamp\www\ShopApp\post.php on line 19
+[30-Nov-2015 05:04:11 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:11 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:13 Europe/Paris] PHP Notice:  Undefined variable: mysqli in C:\wamp\www\ShopApp\post.php on line 19
+[30-Nov-2015 05:04:13 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:13 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\ShopApp\includes\functions.php on line 131
+[30-Nov-2015 05:04:13 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:13 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:13 Europe/Paris] PHP   2. login_check() C:\wamp\www\ShopApp\post.php:19
+[30-Nov-2015 05:04:14 Europe/Paris] PHP Notice:  Undefined variable: mysqli in C:\wamp\www\ShopApp\post.php on line 19
+[30-Nov-2015 05:04:14 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:14 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\ShopApp\includes\functions.php on line 131
+[30-Nov-2015 05:04:14 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:14 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:14 Europe/Paris] PHP   2. login_check() C:\wamp\www\ShopApp\post.php:19
+[30-Nov-2015 05:04:19 Europe/Paris] PHP Notice:  Undefined variable: mysqli in C:\wamp\www\ShopApp\post.php on line 19
+[30-Nov-2015 05:04:19 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:19 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\ShopApp\includes\functions.php on line 131
+[30-Nov-2015 05:04:19 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:19 Europe/Paris] PHP   2. login_check() C:\wamp\www\ShopApp\post.php:19
+[30-Nov-2015 05:04:49 Europe/Paris] PHP Warning:  include_once(db_connect.php): failed to open stream: No such file or directory in C:\wamp\www\ShopApp\post.php on line 3
+[30-Nov-2015 05:04:49 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:49 Europe/Paris] PHP Warning:  include_once(): Failed opening 'db_connect.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\ShopApp\post.php on line 3
+[30-Nov-2015 05:04:49 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:49 Europe/Paris] PHP Notice:  Undefined variable: mysqli in C:\wamp\www\ShopApp\post.php on line 20
+[30-Nov-2015 05:04:49 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:49 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\ShopApp\includes\functions.php on line 131
+[30-Nov-2015 05:04:49 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:04:49 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:04:49 Europe/Paris] PHP   2. login_check() C:\wamp\www\ShopApp\post.php:20
+[30-Nov-2015 05:05:05 Europe/Paris] PHP Warning:  include_once(db_connect.php): failed to open stream: No such file or directory in C:\wamp\www\ShopApp\post.php on line 3
+[30-Nov-2015 05:05:05 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:05 Europe/Paris] PHP Warning:  include_once(): Failed opening 'db_connect.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\ShopApp\post.php on line 3
+[30-Nov-2015 05:05:05 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:05 Europe/Paris] PHP Notice:  Undefined variable: mysqli in C:\wamp\www\ShopApp\post.php on line 20
+[30-Nov-2015 05:05:05 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:05 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in C:\wamp\www\ShopApp\includes\functions.php on line 131
+[30-Nov-2015 05:05:05 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:05 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:05 Europe/Paris] PHP   2. login_check() C:\wamp\www\ShopApp\post.php:20
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Warning:  include_once(db_connect.php): failed to open stream: No such file or directory in C:\wamp\www\ShopApp\post.php on line 3
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Warning:  include_once(): Failed opening 'db_connect.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\ShopApp\post.php on line 3
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Warning:  include_once(functions.php): failed to open stream: No such file or directory in C:\wamp\www\ShopApp\post.php on line 4
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Warning:  include_once(): Failed opening 'functions.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\ShopApp\post.php on line 4
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Fatal error:  Call to undefined function sec_session_start() in C:\wamp\www\ShopApp\post.php on line 6
+[30-Nov-2015 05:05:29 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Warning:  include_once(db_connect.php): failed to open stream: No such file or directory in C:\wamp\www\ShopApp\post.php on line 3
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Warning:  include_once(): Failed opening 'db_connect.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\ShopApp\post.php on line 3
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Warning:  include_once(functions.php): failed to open stream: No such file or directory in C:\wamp\www\ShopApp\post.php on line 4
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Warning:  include_once(): Failed opening 'functions.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\ShopApp\post.php on line 4
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Fatal error:  Call to undefined function sec_session_start() in C:\wamp\www\ShopApp\post.php on line 6
+[30-Nov-2015 05:05:33 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:05:33 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 05:07:45 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in C:\wamp\www\ShopApp\includes\process_post.php on line 34
+[30-Nov-2015 05:08:07 Europe/Paris] PHP Parse error:  syntax error, unexpected '<' in C:\wamp\www\ShopApp\includes\process_post.php on line 34
+[30-Nov-2015 05:08:17 Europe/Paris] PHP Warning:  include_once(includes/functions.php): failed to open stream: No such file or directory in C:\wamp\www\ShopApp\includes\process_post.php on line 4
+[30-Nov-2015 05:08:17 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:08:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 05:08:17 Europe/Paris] PHP Warning:  include_once(): Failed opening 'includes/functions.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\ShopApp\includes\process_post.php on line 4
+[30-Nov-2015 05:08:17 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:08:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 05:08:17 Europe/Paris] PHP Fatal error:  Call to undefined function sec_session_start() in C:\wamp\www\ShopApp\includes\process_post.php on line 8
+[30-Nov-2015 05:08:17 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:08:17 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 05:08:19 Europe/Paris] PHP Warning:  include_once(includes/functions.php): failed to open stream: No such file or directory in C:\wamp\www\ShopApp\includes\process_post.php on line 4
+[30-Nov-2015 05:08:19 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:08:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 05:08:19 Europe/Paris] PHP Warning:  include_once(): Failed opening 'includes/functions.php' for inclusion (include_path='.;C:\php\pear') in C:\wamp\www\ShopApp\includes\process_post.php on line 4
+[30-Nov-2015 05:08:19 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:08:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 05:08:19 Europe/Paris] PHP Fatal error:  Call to undefined function sec_session_start() in C:\wamp\www\ShopApp\includes\process_post.php on line 8
+[30-Nov-2015 05:08:19 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 05:08:19 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 12:52:57 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[30-Nov-2015 12:53:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'c:/wamp/bin/php/php5.5.12/ext/php_intl.dll' - The specified module could not be found.
+ in Unknown on line 0
+[30-Nov-2015 13:53:03 Europe/Paris] PHP Warning:  mysqli::mysqli(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\wamp\www\ShopApp\includes\db_connect.php on line 3
+[30-Nov-2015 13:53:03 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 13:53:03 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 13:53:03 Europe/Paris] PHP   2. include_once() C:\wamp\www\ShopApp\post.php:3
+[30-Nov-2015 13:53:03 Europe/Paris] PHP   3. mysqli->mysqli() C:\wamp\www\ShopApp\includes\db_connect.php:3
+[30-Nov-2015 13:53:09 Europe/Paris] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in C:\wamp\www\ShopApp\includes\functions.php on line 133
+[30-Nov-2015 13:53:09 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 13:53:09 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\post.php:0
+[30-Nov-2015 13:53:09 Europe/Paris] PHP   2. login_check() C:\wamp\www\ShopApp\post.php:19
+[30-Nov-2015 13:53:09 Europe/Paris] PHP   3. mysqli->prepare() C:\wamp\www\ShopApp\includes\functions.php:133
+[30-Nov-2015 19:58:05 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in C:\wamp\www\ShopApp\includes\process_post.php on line 36
+[30-Nov-2015 19:58:12 Europe/Paris] PHP Parse error:  syntax error, unexpected '}' in C:\wamp\www\ShopApp\includes\process_post.php on line 36
+[30-Nov-2015 20:22:44 Europe/Paris] PHP Notice:  Use of undefined constant FILTER_SANITIZE_NUMBER - assumed 'FILTER_SANITIZE_NUMBER' in C:\wamp\www\ShopApp\includes\process_post.php on line 17
+[30-Nov-2015 20:22:44 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 20:22:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 20:22:44 Europe/Paris] PHP Warning:  filter_var() expects parameter 2 to be long, string given in C:\wamp\www\ShopApp\includes\process_post.php on line 17
+[30-Nov-2015 20:22:44 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 20:22:44 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 20:22:44 Europe/Paris] PHP   2. filter_var() C:\wamp\www\ShopApp\includes\process_post.php:17
+[30-Nov-2015 20:33:50 Europe/Paris] PHP Fatal error:  Call to a member function bind_param() on a non-object in C:\wamp\www\ShopApp\includes\process_post.php on line 74
+[30-Nov-2015 20:33:50 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 20:33:50 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 20:34:41 Europe/Paris] PHP Fatal error:  Call to a member function bind_param() on a non-object in C:\wamp\www\ShopApp\includes\process_post.php on line 74
+[30-Nov-2015 20:34:41 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 20:34:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 20:34:45 Europe/Paris] PHP Fatal error:  Call to a member function bind_param() on a non-object in C:\wamp\www\ShopApp\includes\process_post.php on line 74
+[30-Nov-2015 20:34:45 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 20:34:45 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 20:38:24 Europe/Paris] PHP Notice:  Undefined variable: shopdb in C:\wamp\www\ShopApp\includes\process_post.php on line 56
+[30-Nov-2015 20:38:24 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 20:38:24 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
+[30-Nov-2015 20:38:25 Europe/Paris] PHP Fatal error:  Call to a member function real_escape_string() on a non-object in C:\wamp\www\ShopApp\includes\process_post.php on line 56
+[30-Nov-2015 20:38:25 Europe/Paris] PHP Stack trace:
+[30-Nov-2015 20:38:25 Europe/Paris] PHP   1. {main}() C:\wamp\www\ShopApp\includes\process_post.php:0
