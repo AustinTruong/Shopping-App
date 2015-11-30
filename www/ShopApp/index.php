@@ -23,7 +23,8 @@ if (login_check($mysqli) == true) {
         if (isset($_GET['error'])) {
             echo '<p class="error">Error Logging In!</p>';
         }
-        ?> 
+        ?>
+	<?php if (login_check($mysqli) == false) { ?>
         <form action="includes/process_login.php" method="post" name="login_form">                      
             Email: <input type="text" name="email" />
             Password: <input type="password" 
@@ -33,16 +34,17 @@ if (login_check($mysqli) == true) {
                    value="Login" 
                    onclick="formhash(this.form, this.form.password);" /> 
         </form>
- 
-	<?php
-        if (login_check($mysqli) == true) {
-                        echo '<p>Currently logged ' . $logged . ' as ' . htmlentities($_SESSION['username']) . '.</p>';
- 
+    <?php
+			echo '<p>Currently logged ' . $logged . '.</p>';
+			echo "<p>If you don't have a login, please <a href='register.php'>register</a></p>";
+		} else {
+			if (isset($_GET['welcome'])) {
+				echo '<p class="error">Welcome!</p>';
+			}
+            echo '<p>Currently logged ' . $logged . ' as <b>' . htmlentities($_SESSION['username']) . '</b>.</p>';
             echo '<p>Do you want to change user? <a href="includes/logout.php">Log out</a>.</p>';
-        } else {
-                        echo '<p>Currently logged ' . $logged . '.</p>';
-                        echo "<p>If you don't have a login, please <a href='register.php'>register</a></p>";
-                }
+			echo "<p><a href='post.php'>Click here to create a listing.</a></p>";
+        } 
 	?>    
 	<?php
 		if($stmt = $shopsv->prepare("SELECT * 

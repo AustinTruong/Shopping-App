@@ -20,25 +20,30 @@ sec_session_start();
         }?>
 		<?php //echo esc_url($_SERVER['PHP_SELF']); ?>
         <?php if (login_check($mysqli) == true) : ?>
-            <p>Welcome <?php echo htmlentities($_SESSION['username']); ?>!</p>
+            <p>Currently logged in as <b> <?php echo htmlentities($_SESSION['username']); ?></b>.</p>
+			
             <p>
                 Create a post!
             </p><!--includes/process_post.php-->
 			<form action="includes/process_post.php" method="post" name="post_form">      
 			
-            Title: <br>
-			<input type="text" name="title" value = "Put your title here..." /><br>
+            <b>Title:</b> <br>
+			Put the title of your post here. <br>
+			<input type="text" name="title" value = "Need stuff!" /><br>
 			
-            Body: <br>
-			<textarea id="text" name="text" cols="40" rows ="10">Type your request here...</textarea> <br>
+           <b>Body:</b> <br>
+			Type your request here. <br>
+			<textarea id="text" name="text" cols="40" rows ="10"></textarea> <br>
 			
-			Pickup location: <br>
-			<input type="text" name="address" value = "Where will you pick this up?" /><br>
+			<b>Pickup location:</b> <br>
+			<input type="text" name="address" value = "Unspecified" /><br>
 			
-			Offering fee:<br>
+			<b>Offering fee:</b><br>
+			This is the amount you are willing to pay in addition to the cost of the purchase.<br>
 			<input type="number" name="fee" step="0.01" min="0" /><br>
 			
-			Type of items:<br>
+			<b>Type of items:</b><br>
+			Select the types of items that are in your request.<br>
 			<input type="checkbox" name="item_type1" value="food">Food<br>
 			<input type="checkbox" name="item_type2" value="clothes" checked="checked">Clothing<br>
 			<input type="checkbox" name="item_type3" value="electronics" checked="checked">Electronics<br>
