@@ -49,6 +49,9 @@ function login($email, $password, $mysqli) {
             if (checkbrute($user_id, $mysqli) == true) {
                 // Account is locked 
                 // Send an email to user saying their account is locked
+				$message = "Test1\r\nTest2\r\nTest3\rTest4\nTest5";
+				$message = wordwrap($message, 70, "\r\n");
+				mail('austintruong@ymail.com','TEST EMAIL',$message);
                 return false;
             } else {
                 // Check if the password in the database matches
@@ -91,6 +94,7 @@ function checkbrute($user_id, $mysqli) {
  
     // All login attempts are counted from the past 2 hours. 
     $valid_attempts = $now - (2 * 60 * 60);
+	// num * minutes * seconds
  
     if ($stmt = $mysqli->prepare("SELECT time 
                              FROM login_attempts 
@@ -189,6 +193,37 @@ function esc_url($url) {
         return $url;
     }
 }
+
+function find_name($id,$mysqli)
+{
+	$nofound = '[NO_NAME]';
+	
+	if($stmt = $mysqli->prepare("SELECT username 
+        FROM members 
+		WHERE id = ? LIMIT 1")) {
+		$stmt->bind_param('i',$id);
+		$stmt->execute(); 
+		$stmt->store_result();
+		if ($stmt->num_rows == 1) {
+			// If the user exists get variables from result.
+			$stmt->bind_result($username);
+			$stmt->fetch();
+			return $username;
+		}
+		else
+			return $nofound;
+		
+		//$result = $stmt->get_result();
+	}
+	else	
+		return $nofound;
+}
+/*
+function submit_post($user_id,$title,$text,$shopsv)
+{
+	
+}
+*/
 
 
 ?>

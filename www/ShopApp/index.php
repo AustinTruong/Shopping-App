@@ -34,7 +34,7 @@ if (login_check($mysqli) == true) {
                    onclick="formhash(this.form, this.form.password);" /> 
         </form>
  
-<?php
+	<?php
         if (login_check($mysqli) == true) {
                         echo '<p>Currently logged ' . $logged . ' as ' . htmlentities($_SESSION['username']) . '.</p>';
  
@@ -43,6 +43,22 @@ if (login_check($mysqli) == true) {
                         echo '<p>Currently logged ' . $logged . '.</p>';
                         echo "<p>If you don't have a login, please <a href='register.php'>register</a></p>";
                 }
-?>      
+	?>    
+	<?php
+		if($stmt = $shopsv->prepare("SELECT * 
+        FROM posted_lists")) {
+				
+			$stmt->execute();
+			$result = $stmt->get_result();
+			while($row = $result->fetch_assoc()) {
+				// Get matching name from secure_login
+				$usern = find_name($row["user_id"],$mysqli);
+				
+				echo '<table border="1" style="width:100%"><tr><td>' . $usern. " says...  </td></tr><tr><td>" . 
+				nl2br(htmlspecialchars($row["text"])). "</td></tr></table>";
+			}
+		}
+	?>
+	
     </body>
 </html>
