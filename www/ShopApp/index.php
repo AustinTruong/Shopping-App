@@ -43,6 +43,7 @@ if (login_check($mysqli) == true) {
 			}
             echo '<p>Currently logged ' . $logged . ' as <b>' . htmlentities($_SESSION['username']) . '</b>.</p>';
             echo '<p>Do you want to change user? <a href="includes/logout.php">Log out</a>.</p>';
+			echo '<p><a href="profile.php">Click here to see and edit your posts.</a><p>';
 			echo "<p><a href='post.php'>Click here to create a listing.</a></p>";
         } 
 	?>    
@@ -56,8 +57,11 @@ if (login_check($mysqli) == true) {
 				// Get matching name from secure_login
 				$usern = find_name($row["user_id"],$mysqli);
 				
-				echo '<table border="1" style="width:100%"><tr><td>' . $usern. " says...  </td></tr><tr><td>" . 
-				nl2br(htmlspecialchars($row["text"])). "</td></tr></table>";
+				echo '<table border="1" style="width:100%"><tr><th scope="col" colspan="2">' . $usern. ' says...  </th></tr>';
+				echo '<tr><td colspan="2">' . nl2br(htmlspecialchars($row["header"])). '</td></tr>';
+				echo '<tr><td colspan="2">' . nl2br(htmlspecialchars($row["text"])). '</td></tr>';
+				echo '<tr><td>Drop off: '.htmlspecialchars($row['drop_off']).'</td><td>Fee: $'.$row['fee'].'</td><tr>';
+				echo "</table><br>";
 			}
 		}
 	?>

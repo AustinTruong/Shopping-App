@@ -10,7 +10,7 @@ if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'] )){
 	
 	// Filter inputs
 	$title =  filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING);
-	$text = filter_var(htmlspecialchars($_POST['text']), FILTER_SANITIZE_STRING);
+	$text = filter_var($_POST['text'],FILTER_SANITIZE_STRING);
 	$address = filter_input(INPUT_POST, 'address', FILTER_SANITIZE_STRING);
 	$fee = filter_var($_POST['fee'], FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
 	
@@ -54,7 +54,7 @@ if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'] )){
 	
 	
 	$title = $shopsv->real_escape_string($title);
-	$text = $shopsv->real_escape_string($text);
+	//$text = $shopsv->real_escape_string($text);
 	$address = $shopsv->real_escape_string($address);
 	$types = $shopsv->real_escape_string($types);
 	
@@ -64,6 +64,7 @@ if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'] )){
 	
 	echo $title."<br>";
 	echo $user_id."<br>";
+	echo nl2br($text)."<br>";
 	echo $fee."<br>";
 	echo $types."<br>";
 	echo $curr_time;

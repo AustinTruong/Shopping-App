@@ -6,13 +6,14 @@ include_once 'functions.php';
 sec_session_start();
 
 
-if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'] )){
+if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'], $_POST['post_id'] )){
 	
 	// Filter inputs
 	$title =  filter_input(INPUT_POST, 'title', FILTER_SANITIZE_STRING);
 	$text = filter_var($_POST['text'],FILTER_SANITIZE_STRING);
 	$address = filter_input(INPUT_POST, 'address', FILTER_SANITIZE_STRING);
 	$fee = filter_var($_POST['fee'], FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
+	$post_id = filter_var($_POST['post_id'], FILTER_SANITIZE_NUMBER_INT);
 	
 	$types = "";
 	$numt = 0;
@@ -62,27 +63,20 @@ if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'] )){
 	
 	$curr_time = time();
 	
-	echo $title."<br>";
-	echo $user_id."<br>";
-	echo nl2br($text)."<br>";
-	echo $fee."<br>";
-	echo $types."<br>";
-	echo $curr_time;
-	
 	if ( mysqli_connect_errno() ) {
     printf("Connect failed: %s\n", mysqli_connect_error());
 	}
-	if($stmt = $shopsv->prepare("INSERT INTO posted_lists (header, text, drop_off, fee, item_types, user_id, submit_time) VALUES (?, ?, ?, ?, ?, ?, ?)")){
-		$stmt->bind_param('sssdsss', $title, $text, $address, $fee, $types, $user_id, $curr_time);
+	if($stmt = $shopsv->prepare("UPDATE posted_lists SET header=?, text=?, drop_off=?, fee=?, item_types=?, last_edit=? WHERE post_id=?")){
+		$stmt->bind_param('sssdssi', $title, $text, $address, $fee, $types, $curr_time, $post_id);
 		if(!$stmt->execute())
 		{
 			echo "ERROR";
-			header('Location: ../post.php?error_server=1');
+			echo header('Location: ../profile.php?error_server=2');
 		}else 
-			header('Location: ../post.php?success=1');
+			header('Location: ../profile.php');
 	}
 	else
-		echo header('Location: ../post.php?error_server=1');
+		echo header('Location: ../profile.php?error_server=1');
 	
 	
 }
