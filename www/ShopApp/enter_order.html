@@ -1,0 +1,60 @@
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <title>Enter Shopping order</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <script type="text/JavaScript" src="js/sha512.js"></script>
+    <script type="text/JavaScript" src="js/forms.js"></script>
+  </head>
+  <body>
+
+     <p> Here you will enter your shopping list for another user to buy </p>
+
+
+      <!--textfield to quert number of items from user -->
+    <form name="form1" method="post" action="enter_order.php">
+        <p>Number of Items on your list:
+    <input type="text" id="numItems" name="num_items">
+    <br>
+
+    <!-- textarea to query full shopping list from user -->
+    Enter your items here, with one item per line:
+    <textarea name="shopping_list"></textarea>
+  </p>
+
+  <!-- texfield to query cost of groceries from user -->
+  Approximate cost of list:
+  <input type="text" name="cost">
+  </p>
+
+  <!-- drop down menu to query desired grocery store from user -->
+  <p>Select the strore you would like them bought from
+    <select name="grocery_store">
+      <option>Publix</option>
+      <option>Walmart</option>
+      <option>ALDI</option>
+      <option>Any</option>
+      <option>Other</option>
+    </select>
+
+    <!-- textfield in case user wants non listed grocery store -->
+    If you selected other enter your desired grocery store here
+    <input type="text" name="alt_store">
+  </p>
+
+  <!-- submit button to send form info to database -->
+  <p>
+  <input type="submit" name="Submit" value="Submit">
+  </p>
+</form>
+
+
+  </body>
+
+
+</html>
