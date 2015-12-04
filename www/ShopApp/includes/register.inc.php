@@ -1,3 +1,11 @@
+<!--
+	register.inc.php
+	
+	From tutorial at 
+	http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+	
+-->
+
 <?php
 include_once 'db_connect.php';
 include_once 'psl-config.php';

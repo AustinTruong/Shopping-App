@@ -1,3 +1,13 @@
+<!--
+	psl-config.php
+	
+	From tutorial at 
+	http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+	
+	Modified by: Austin Truong
+	
+-->
+
 <?php
 /**
  * These are the database login details

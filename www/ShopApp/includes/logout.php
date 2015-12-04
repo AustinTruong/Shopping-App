@@ -1,3 +1,10 @@
+<!--
+	logout.php
+	
+	From tutorial at 
+	http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+-->
+
 <?php
 include_once 'functions.php';
 sec_session_start();

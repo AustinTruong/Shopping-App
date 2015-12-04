@@ -1,3 +1,11 @@
+<!-- 
+	edit.php
+	Author: Austin Truong
+	
+	Page for editing listings before submitting them to the database.
+	
+-->
+
 <?php
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';

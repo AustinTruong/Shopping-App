@@ -1,3 +1,10 @@
+<!-- Deprecated 
+
+	Author: Austin Truong
+	Intended to do process posting.
+
+-->
+
 <?php
 include_once 'db_connect.php';
 include_once 'psl-config.php';

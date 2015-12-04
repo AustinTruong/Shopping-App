@@ -1,3 +1,12 @@
+<!--
+	process_edit.php
+	
+	by: Austin Truong
+	
+	Back-end for editting
+	
+-->
+
 <?php
 include_once 'db_connect.php';
 include_once 'psl-config.php';
@@ -53,6 +62,7 @@ if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'], $_P
 		$numt = $numt + 1;
 	}
 	
+
 	
 	$title = $shopsv->real_escape_string($title);
 	//$text = $shopsv->real_escape_string($text);
@@ -66,8 +76,9 @@ if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'], $_P
 	if ( mysqli_connect_errno() ) {
     printf("Connect failed: %s\n", mysqli_connect_error());
 	}
-	if($stmt = $shopsv->prepare("UPDATE posted_lists SET header=?, text=?, drop_off=?, fee=?, item_types=?, last_edit=? WHERE post_id=?")){
-		$stmt->bind_param('sssdssi', $title, $text, $address, $fee, $types, $curr_time, $post_id);
+	// Make sure user id matches with query
+	if($stmt = $shopsv->prepare("UPDATE posted_lists SET header=?, text=?, drop_off=?, fee=?, item_types=?, last_edit=? WHERE post_id=?, user_id= ?")){
+		$stmt->bind_param('sssdssii', $title, $text, $address, $fee, $types, $curr_time, $post_id, $user_id);
 		if(!$stmt->execute())
 		{
 			echo "ERROR";

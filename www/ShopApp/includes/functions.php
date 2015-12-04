@@ -1,3 +1,13 @@
+<!--
+	functions.php
+	
+	From tutorial at 
+	http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+	
+	Additional functions by: Austin Truong
+	find_name(int,connection)
+-->
+
 <?php
 include_once 'psl-config.php';
 
@@ -194,36 +204,36 @@ function esc_url($url) {
     }
 }
 
+// Custom function
 function find_name($id,$mysqli)
 {
+	// Default string for no name found
 	$nofound = '[NO_NAME]';
 	
+	// Prepare statement to find username
 	if($stmt = $mysqli->prepare("SELECT username 
         FROM members 
-		WHERE id = ? LIMIT 1")) {
+		WHERE id = ? LIMIT 1")) 
+	{
+		// I was told prepared statements were safe from injection.
+		// Either way, this will cause an error if not an integer.
 		$stmt->bind_param('i',$id);
 		$stmt->execute(); 
 		$stmt->store_result();
+		
+		// Make sure an entry is found
 		if ($stmt->num_rows == 1) {
-			// If the user exists get variables from result.
+			// If the associated username exists, get variables from result.
 			$stmt->bind_result($username);
 			$stmt->fetch();
 			return $username;
 		}
 		else
 			return $nofound;
-		
-		//$result = $stmt->get_result();
 	}
 	else	
 		return $nofound;
 }
-/*
-function submit_post($user_id,$title,$text,$shopsv)
-{
-	
-}
-*/
 
 
 ?>

@@ -1,3 +1,11 @@
+<!--
+	process_post.php
+	
+	by: Austin Truong
+	
+	Used for processing when a user submits a post to the database.
+-->
+
 <?php
 include_once 'db_connect.php';
 include_once 'psl-config.php';
