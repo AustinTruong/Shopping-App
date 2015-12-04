@@ -1,0 +1,34 @@
+Build Instructions for UCF Shopping App
+
+Our project uses WampServer for its server and database manager.
+
+Download WampServer here:
+
+http://www.wampserver.com/en/
+
+After installing WampServer, place the "www" folder in the installation(wamp) 
+directory. It will overwrite the existing www folder. This folder contains all of the .php
+and .css files for our project.
+
+The .sql file contains the necessary database information for our site to
+work. It needs to be imported into the WampServer.
+
+Once WampServer is installed, start WampServer with wampmanager.exe in the
+wamp directory.
+
+The wampserver site gives instructions on putting the server online.
+
+Open up a browser and type "localhost/phpmyadmin" in the URL bar. Alternatively, click on the
+Wamp icon in the start bar, then click on "phpmyadmin" in the menu that appears.
+
+In phpMyAdmin, on the top toolbar, there is a menu item that says "Import". Click this.
+
+Import the 127_0_0_1.sql file, then the USERS.sql file. Order matters. Disregard the 
+'Importing into database "database_name" ' line at the top. We override this in our .sql files.
+
+The first file imports the databases, the second creates the database users needed to access 
+information from our web page.
+
+The project should now be set up and ready to run.
+
+Go into a browser and type "localhost/shopapp" into the URL bar. The front page should appear.
