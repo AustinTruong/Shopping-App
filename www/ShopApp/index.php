@@ -55,30 +55,47 @@ if (login_check($mysqli) == true) {
 			echo '<p><a href="profile.php">Click here to see and edit your posts.</a><p>';
 			echo "<p><a href='post.php'>Click here to create a listing.</a></p>";
         } 
+		
+		// Get sort_type from post
 		if(isset($_POST['sort_type']))
 			$sort_type = filter_var($_POST['sort_type'], FILTER_SANITIZE_STRING);
+		if(isset($_POST['sort_by']))
+			$sort_by = filter_var($_POST['sort_by'], FILTER_SANITIZE_STRING);
 	?>    
 	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
-		Select an option to sort the list below:<br>
-		<input type="radio" name="sort_type" 
-			<?php if (isset($sort_type) && $sort_type=="food") echo "checked";?>  value="food">
-			Food items<br>
-		<input type="radio" name="sort_type" 
-			<?php if (isset($sort_type) && $sort_type=="clothes") echo "checked";?>  value="clothes">
-			Clothing and accessories<br>
-		<input type="radio" name="sort_type" 
-			<?php if (isset($sort_type) && $sort_type=="electronics") echo "checked";?>  value="electronics">
-			Electronics<br>
-		<input type="radio" name="sort_type" 
-			<?php if (isset($sort_type) && $sort_type=="supplies") echo "checked";?>  value="supplies">
-			Office and other supplies<br>
-		<input type="radio" name="sort_type" 
-			<?php if (isset($sort_type) && $sort_type=="misc") echo "checked";?>  value="misc">
-			Miscellaneous items<br>
-		<input type="radio" name="sort_type" 
-			<?php if (!isset($sort_type) || (isset($sort_type) && $sort_type=="none")) echo "checked";?>  value="none">
-			No preference<br>
+		Select a filter for the list below:<br>
+		<select name = "sort_type">
+			<option value="none" selected="selected"
+			<?php if (!isset($sort_type) || $sort_type=="none") echo 'selected="selected"';?>>
+				No preference</option>
+			<option value="food"
+				<?php if (isset($sort_type) && $sort_type=="food") echo 'selected="selected"';?>>
+				Food and groceries</option>
+			<option value="clothes"
+				<?php if (isset($sort_type) && $sort_type=="clothes") echo 'selected="selected"';?>>
+				Clothing and accessories</option>
+			<option value="electronics"
+				<?php if (isset($sort_type) && $sort_type=="electronics") echo 'selected="selected"';?>>
+				Electronics</option>
+			<option value="supplies"
+				<?php if (isset($sort_type) && $sort_type=="supplies") echo 'selected="selected"';?>>
+				Office and other supplies</option>
+			<option value="misc"
+				<?php if (isset($sort_type) && $sort_type=="misc") echo 'selected="selected"';?>>
+				Miscellaneous items</option>
+		</select>
 		<br>
+		Select a sort method for the list below:<br>
+		<select name = "sort_by">
+			<option value="none" 
+				<?php if (isset($sort_by) && $sort_by=="none") echo 'selected="selected"';?>>No preference</option>
+			<option value="submit_time" 
+				<?php if (isset($sort_by) && $sort_by=="submit_time") echo 'selected="selected"';?>>Time submitted</option>
+			<option value="fee" 
+				<?php if (isset($sort_by) && $sort_by=="fee") echo 'selected="selected"';?>>Service fee</option>
+			<option value="header" 
+				<?php if (isset($sort_by) && $sort_by=="header") echo 'selected="selected"';?>>Header</option>
+		</select>
 		<input type="submit" name="submit" value="Submit"> 
 	</form>
 	
@@ -89,6 +106,11 @@ if (login_check($mysqli) == true) {
 		{
 			$prep_stmt .= ' WHERE item_types = "' . $sort_type .'"';
 		}
+		if (isset($sort_by) && $sort_by != 'none')
+		{
+			$prep_stmt .= ' ORDER BY ' . $sort_by .'';
+		}
+		echo $prep_stmt;
 		if($stmt = $shopsv->prepare($prep_stmt)) {
 				
 			$stmt->execute();
