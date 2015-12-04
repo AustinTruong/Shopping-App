@@ -3,7 +3,7 @@
 	
 	by: Austin Truong
 	
-	Back-end for editting
+	Back-end for editing posts. Processes inputs.
 	
 -->
 
@@ -61,8 +61,6 @@ if (isset($_POST['title'], $_POST['text'], $_POST['address'], $_POST['fee'], $_P
 		$types .= "misc";
 		$numt = $numt + 1;
 	}
-	
-
 	
 	$title = $shopsv->real_escape_string($title);
 	//$text = $shopsv->real_escape_string($text);

@@ -1,3 +1,12 @@
+<!--
+	index.php
+	
+	login code from tutorial at 
+	http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+	
+	other code by: Austin Truong
+-->
+
 <?php
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';
@@ -46,10 +55,41 @@ if (login_check($mysqli) == true) {
 			echo '<p><a href="profile.php">Click here to see and edit your posts.</a><p>';
 			echo "<p><a href='post.php'>Click here to create a listing.</a></p>";
         } 
+		if(isset($_POST['sort_type']))
+			$sort_type = filter_var($_POST['sort_type'], FILTER_SANITIZE_STRING);
 	?>    
+	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 
+		Select an option to sort the list below:<br>
+		<input type="radio" name="sort_type" 
+			<?php if (isset($sort_type) && $sort_type=="food") echo "checked";?>  value="food">
+			Food items<br>
+		<input type="radio" name="sort_type" 
+			<?php if (isset($sort_type) && $sort_type=="clothes") echo "checked";?>  value="clothes">
+			Clothing and accessories<br>
+		<input type="radio" name="sort_type" 
+			<?php if (isset($sort_type) && $sort_type=="electronics") echo "checked";?>  value="electronics">
+			Electronics<br>
+		<input type="radio" name="sort_type" 
+			<?php if (isset($sort_type) && $sort_type=="supplies") echo "checked";?>  value="supplies">
+			Office and other supplies<br>
+		<input type="radio" name="sort_type" 
+			<?php if (isset($sort_type) && $sort_type=="misc") echo "checked";?>  value="misc">
+			Miscellaneous items<br>
+		<input type="radio" name="sort_type" 
+			<?php if (!isset($sort_type) || (isset($sort_type) && $sort_type=="none")) echo "checked";?>  value="none">
+			No preference<br>
+		<br>
+		<input type="submit" name="submit" value="Submit"> 
+	</form>
+	
 	<?php
-		if($stmt = $shopsv->prepare("SELECT * 
-        FROM posted_lists")) {
+		$prep_stmt = "SELECT * 
+        FROM posted_lists";
+		if (isset($sort_type) && $sort_type != 'none')
+		{
+			$prep_stmt .= ' WHERE item_types = "' . $sort_type .'"';
+		}
+		if($stmt = $shopsv->prepare($prep_stmt)) {
 				
 			$stmt->execute();
 			$result = $stmt->get_result();

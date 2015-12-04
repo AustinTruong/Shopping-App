@@ -1,3 +1,11 @@
+<!-- 
+	post.php
+	Author: Austin Truong
+	
+	Page for creating listings before submission to the database.
+	
+-->
+
 <?php
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';

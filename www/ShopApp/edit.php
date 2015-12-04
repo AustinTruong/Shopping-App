@@ -2,7 +2,7 @@
 	edit.php
 	Author: Austin Truong
 	
-	Page for editing listings before submitting them to the database.
+	Page for editing listings already submitted to the database.
 	
 -->
 

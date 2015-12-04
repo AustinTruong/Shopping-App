@@ -1,3 +1,10 @@
+<!--
+	profile.php
+	
+	Shows all posts created by a user. Lets them edit
+	their own posts.
+-->
+
 <?php
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';

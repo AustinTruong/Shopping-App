@@ -1,3 +1,11 @@
+<!-- Deprecated
+	protected_page.php
+	
+	From tutorial at 
+	http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+	
+-->
+
 <?php
 include_once 'includes/db_connect.php';
 include_once 'includes/functions.php';

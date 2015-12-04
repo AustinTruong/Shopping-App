@@ -1,3 +1,12 @@
+<!--
+	register_success.php
+	
+	From tutorial at 
+	http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
+	
+-->
+
+
 <!DOCTYPE html>
 <html>
     <head>
