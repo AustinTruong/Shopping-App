@@ -5,6 +5,7 @@
 	http://www.wikihow.com/Create-a-Secure-Login-Script-in-PHP-and-MySQL
 	
 	other code by: Austin Truong
+	CSS styling by: Jennifer Franco
 -->
 
 <?php
@@ -49,6 +50,7 @@ if (login_check($mysqli) == true) {
 				<?php if (login_check($mysqli) == true) { ?>		<!-- User is logged in -->
 				<li><a class="cd-signup" href="includes/logout.php">Log out</a></li>
 				<li><a class="cd-signup" href="profile.php">Your posts</a></li>
+				<li><a class="cd-signup" href="post.php">Create a post</a></li>
 				<?php } else {?>									<!-- User is log out -->
 				<li><a class="cd-signup" href="register.php">Sign up</a></li>
 				<?php } ?>
@@ -104,10 +106,10 @@ if (login_check($mysqli) == true) {
 		<?php } else {?> <!-- User is logged out -->
         <h1>Sign In!</h1>
         <form action="includes/process_login.php" method="post" name="login_form">                      
-            <p>Email: <br><input type="text" name="email" /></p>
-            <p>Password: <br><input type="password" 
+            <p>Email: <br></p><input type="text" name="email" />
+            <p>Password: <br></p><input type="password" 
                              name="password" 
-                             id="password"/></p>
+                             id="password"/>
             <p><input type="button" style="color:black" 
                    value="Login" 
                    onclick="formhash(this.form, this.form.password);" /></p>
