@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `secure_login`
 --
-
+CREATE DATABASE secure_login;
+USE secure_login;
 -- --------------------------------------------------------
 
 --
@@ -57,7 +58,8 @@ INSERT INTO `members` (`id`, `username`, `email`, `password`, `salt`) VALUES
 --
 -- Database: `shop_app_db`
 --
-
+CREATE DATABASE shop_app_db;
+USE shop_app_db;
 -- --------------------------------------------------------
 
 --
